@@ -1,0 +1,23 @@
+{
+  "name": "bamboo-nvim",
+  "displayName": "bamboo.nvim",
+  "publisher": "RileyBruins",
+  "description": "Warm green theme for VS Code",
+  "repository": "git@github.com:ribru17/bamboo-nvim-vscode.git",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "bamboo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/bamboo-color-theme.json"
+      }
+    ]
+  }
+}
